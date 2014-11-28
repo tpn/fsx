@@ -1,0 +1,722 @@
+
+[Main]
+Title=Topgun Simulations - Practice Trap
+Description="Practice landing on an aircraft carrier."
+AppVersion=10.0.61637
+FlightVersion=1
+
+[Options]
+Sound=True
+Pause=True
+Moonlight=True
+TextDisplayPage=0
+SlewDisplayPage=1
+AxisIndicator=Off
+Titles=False
+
+[Kneeboard]
+Visible=False
+Location=21, 376
+PageId=0
+Page0Scroll=0, 0
+Page1Scroll=0, 2147483647
+Page2Scroll=0, 0
+Page3Scroll=0, 0
+Page4Scroll=0, 0
+Page5Scroll=0, 0
+Page6Scroll=0, 0
+RadioMsg0="Roger ball."
+RadioMsgKind0=0
+
+[Atc_Menu]
+ScreenUniCoords=1944, 1219, 4303, 3706
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+
+[Panels]
+Panel.On=True
+HUD.On=False
+
+[Window.1]
+Order=0
+Active=True
+Undocked=False
+Maximized=True
+ScreenUniCoords=0, 0, 8192, 3200
+UndocCoords=0, 0, 0, 0
+CurrentCamera={C95EAB58-9E4A-4E2A-A34C-D8D9D948F078}
+
+[Camera.1.1]
+Guid={B1386D92-4782-4682-A137-738E25D1BAB5}
+Zoom=1
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.2]
+Guid={C95EAB58-9E4A-4E2A-A34C-D8D9D948F078}
+Zoom=0.5
+Translation=0, 0, 0
+Rotation=9.6030969619750977, 0, 0
+
+[Camera.1.3]
+Guid={18EF1F08-7138-4530-948C-07698E51940D}
+Zoom=0.69999998807907104
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.4]
+Guid={98AA4524-EE82-4035-9D2C-D9A8C7D82DBF}
+Zoom=0.69999998807907104
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.5]
+Guid={765CCF83-D7CD-4486-8983-A5714310CDD5}
+Zoom=0.69999998807907104
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.6]
+Guid={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00C}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=-67.733322143554688
+ChaseDistance=36
+ChaseAltitude=4.0217218399047852
+
+[Camera.1.7]
+Guid={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00D}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=-158.40838623046875
+ChaseDistance=36
+ChaseAltitude=0.80000001192092896
+
+[Camera.1.8]
+Guid={6B79DD49-9B4A-439D-BF40-ACBF157B0BA0}
+Zoom=10
+Translation=0, 0, 0
+Rotation=0, -0.89897286891937256, 0
+
+[Camera.1.9]
+Guid={A2849229-938A-448F-8AC6-01EF2291C171}
+Zoom=192
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.10]
+Guid={60BC0819-BD04-4AF6-8954-8FC8AA3545FF}
+Zoom=8
+Translation=0, 0, 0
+Rotation=0.51185572147369385, 66.897865295410156, 0
+
+[Camera.1.11]
+Guid={5D23AC3D-6949-4DAE-8FB7-E913545D1641}
+Zoom=0.75
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.12]
+Guid={E095506E-D7E4-4D4E-B5D2-923B4F9D08FF}
+Zoom=0.5
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.13]
+Guid={4B6E64F5-D9E2-4F08-9295-BBD59B9F9B56}
+Zoom=0.5
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.14]
+Guid={3D31E848-6F6F-45D4-8E43-6290708756E3}
+Zoom=0.5
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.15]
+Guid={5517F522-6C47-40DA-BE66-3D7E10520D75}
+Zoom=0.5
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.16]
+Guid={75A8357E-AB58-4294-9416-90C73FAFDD90}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=-135
+ChaseDistance=32
+ChaseAltitude=0.80000001192092896
+
+[Camera.1.17]
+Guid={C8B172E6-634A-4F7D-BC03-B99318FB0F2C}
+Zoom=1
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[EFIS]
+Active=False
+NavAid=VOR 1
+Type=Rectangles
+Density=Thin
+Range=Short
+Altitude=0
+Flags=0
+
+[ATC_AgentManager]
+NumberofAgents=0
+
+[ATC_Aircraft.0]
+ActiveFlightPlan=False
+RequestedFlightPlan=False
+AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
+NumberofWaypoints=0
+ClearanceFlags=80
+CtCur=CLEARANCE_NONE
+WaypointNext=0
+AltCleared=-1
+HdgAssigned=-1
+SquawkAssigned=1086329344
+LandingSequence=LANDING_NONE
+DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
+ParkingRequest=PARKING_NAME_NONE
+ParkingTypeRequest=PARKING_TYPE_NONE
+PatternLeg=PATTERN_LEG_NONE
+ApproachIndex=-1
+ApproachTransitionIndex=-1
+ApproachRequestIndex=-1
+ApproachTransitionRequestIndex=-1
+RunwayIndex=-1
+RunwayRequestIndex=-1
+ParkingIndex=-1
+FlightFollowing=FLIGHT_FOLLOWING_NO
+AirspaceTransition=AIRSPACE_TRANSITION_NONE
+BVAirspaceTransition=BV_TYPE_NONE
+BVAirspaceTransitionReq=BV_TYPE_NONE
+TakeoffSequence=TAKEOFF_SEQUENCE_NONE
+LandingSequenceNumber=-1
+TaxiRouteCurrent=-1
+CruisingAltitude=-1
+RequestedCruisingAltitude=-1
+ExpectedAltitude=-1
+AircraftSignature=1,0
+
+[ATC_AircraftManager]
+NumberofAircraft=1
+
+[ATC_MessageSystem]
+FrequencyNodes=0
+
+[DateTimeSeason]
+Season=Summer
+Year=2008
+Day=8
+Hours=15
+Minutes=45
+Seconds=30
+
+[Panel.1]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=0
+ViewsOn=1
+
+[Panel.3]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=225
+ViewsOn=0
+
+[Panel.4]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=20000
+ViewsOn=1
+
+[Panel.5]
+ScreenUniCoords=81, 184, 819, 983
+UndocCoords=0, 0, 0, 0
+Visible=True
+Undocked=False
+HiddenOn=False
+ID=22001
+ViewsOn=0
+
+[Panel.6]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22002
+ViewsOn=0
+
+[Panel.7]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22003
+ViewsOn=0
+
+[Panel.8]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22004
+ViewsOn=0
+
+[Panel.9]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22004
+ViewsOn=0
+
+[Panel.10]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22005
+ViewsOn=0
+
+[Panel.11]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22004
+ViewsOn=0
+
+[Panel.12]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22006
+ViewsOn=0
+
+[Panel.13]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22007
+ViewsOn=0
+
+[Panel.14]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=22008
+ViewsOn=0
+
+[User Tip Window]
+Undocked=False
+ScreenUniCoords=500, 400, 7192, 650
+UndocCoords=0, 0, 0, 0
+
+[Sim.0]
+Sim=FA-18 Hornet 11
+
+[SimVars.0]
+Latitude=N36° 24' 55.43"
+Longitude=W74° 30' 52.31"
+Altitude=+000700.00
+Pitch=-4.3036864012125786
+Bank=1.8554294660574553
+Heading=102.34632786485564
+PVelBodyAxis=0.00042083286165730925
+BVelBodyAxis=0.0059042314247151322
+HVelBodyAxis=0.001415228416595273
+XVelBodyAxis=-7.9403981255388514
+YVelBodyAxis=-35.131777071286692
+ZVelBodyAxis=220.17297890573224
+SimOnGround=False
+OnPlatformHeight=-9999999999
+
+[Avionics.0]
+Comm1Active=120.875
+Comm1Standby=128.250
+Comm2Active=127.800
+Comm2Standby=127.900
+Nav1Active=113.70
+Nav1Standby=117.20
+OBS1=340
+Nav2Active=110.60
+Nav2Standby=116.80
+OBS2=315
+Transponder=1200
+ADFActive=284
+ADF2Active=240
+DMESelected=1
+ComTransmit=1
+ComReceiveBoth=False
+AudioNav1Listen=False
+AudioNav2Listen=False
+AudioMarkerListen=False
+AudioDmeListen=False
+AudioAdfListen=False
+AudioAdf2Listen=False
+AvionicsSwitch=True
+
+[Slew.0]
+Active=False
+
+[Freeze.0]
+Location=False
+Altitude=False
+Attitude=False
+
+[Engine Parameters.1.0]
+ThrottleLeverPct=0.28080078125
+PropellerLeverPct=0.99993896484375
+MixtureLeverPct=0.99993896484375
+Pct Engine RPM=0.77825208904695198
+MaxReachedEngineRPM=16504.103836408896
+LeftMagneto=True
+RightMagneto=True
+GeneratorSwitch=True
+CowlFlapPct=0
+FuelPumpSwitch=False
+CarbHeat/DeiceSwitch=False
+Afterburner=0
+
+[Engine Parameters.2.0]
+ThrottleLeverPct=0.28080078125
+PropellerLeverPct=0.99993896484375
+MixtureLeverPct=0.99993896484375
+Pct Engine RPM=0.77825208904695198
+MaxReachedEngineRPM=16504.103836408896
+LeftMagneto=False
+RightMagneto=False
+GeneratorSwitch=True
+CowlFlapPct=0
+FuelPumpSwitch=False
+CarbHeat/DeiceSwitch=False
+Afterburner=0
+
+[Fuel.0]
+TankSelector=All
+TankSelector1=All
+Center=100
+LeftMain=75
+RightMain=75.000007629394531
+LeftAux=74.783393859863281
+RightAux=74.829803466796875
+LeftTip=0
+RightTip=0
+Center 2=100
+Center 3=100
+External 1=100
+External 2=100
+
+[Systems.0]
+BatterySwitch=True
+StructuralDeiceSwitch=False
+PropDeiceSwitch=False
+Autobrakes=0
+StandbyVacuum=False
+PropSync=False
+AutoFeatherSwitch=False
+FlightDirector=False
+PanelLights=False
+LaunchBarSwitch=False
+LaunchBarState=0
+TailhookHandle=True
+TailhookState=1
+FoldingWingsHandle=False
+FoldingWingsState=0, 0
+
+[Gauges.0]
+KollsmanSetting=29.916912078857422
+
+[Switches.0]
+PitotHeat=False
+BeaconLights=True
+LandingLights=False
+LogoLights=False
+NavLights=False
+PanelLights=False
+RecognitionLights=False
+StrobeLights=False
+TaxiLights=False
+WingLights=False
+CabinLights=False
+
+[AutoPilot.0]
+MasterSwitch=False
+WingLeveler=False
+Nav1Lock=False
+HeadingLock=False
+HeadingValue=0
+AltitudeLock=False
+AltitudeValue=0
+AttitudeHold=False
+AirspeedHold=False
+AirspeedValue=0
+MachHold=False
+MachValue=0
+VerticalSpeedHold=False
+VerticalSpeedValue=0
+RPMHold=False
+RPMValue=0
+GlideslopeHold=False
+ApproachHold=False
+BackCourseHold=False
+YawDamper=False
+ToGa=False
+AutoThrottleArm=False
+GPSdrivesNAV1=False
+IsUsedForLesson=False
+
+[Payload.0]
+PayloadList=-1
+
+[Controls.0]
+SpoilersHandle=000.00
+FlapsHandle=100.00
+LeftFlap=030.92
+RightFlap=030.92
+GearsHandle=000.01
+Gear1=100.00
+Gear2=100.00
+Gear3=100.00
+YokeY=050.00
+YokeX=050.00
+Rudder=050.00
+LeftBrake=000.00
+RightBrake=000.00
+ParkingBrake=000.00
+ElevatorTrim=065.29
+RudderTrimPct=0
+AileronTrimPct=0
+
+[SimScheduler]
+SimSpeed=001.00
+SimTime=1075.0109094496095
+
+[Weather]
+WeatherType=2
+
+[Flying Tip Window]
+Undocked=False
+ScreenUniCoords=500, 400, 7192, 650
+UndocCoords=0, 0, 0, 0
+
+[ResourcePath]
+Path=missions\military\tgs-PracticeTrap\
+
+[Sim.1364]
+Sim=VEH_destroyer01
+
+[SimVars.1364]
+Latitude=N36° 24' 48.57"
+Longitude=W74° 30' 4.44"
+Altitude=+000008.99
+Pitch=0
+Bank=-2.3878157885135107e-006
+Heading=79.051124157974641
+PVelBodyAxis=0
+BVelBodyAxis=2.3136808696698174e-009
+HVelBodyAxis=4.6742148383925773e-007
+XVelBodyAxis=2.7705611097846545e-006
+YVelBodyAxis=1.7823132090461457e-113
+ZVelBodyAxis=16.88761451793836
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Slew.1364]
+Active=False
+
+[Freeze.1364]
+Location=False
+Altitude=False
+Attitude=False
+
+[Sim.1365]
+Sim=VEH_destroyer01
+
+[SimVars.1365]
+Latitude=N36° 23' 36.99"
+Longitude=W74° 30' 7.34"
+Altitude=+000008.99
+Pitch=0
+Bank=-2.6477950542337408e-006
+Heading=79.062045419645401
+PVelBodyAxis=0
+BVelBodyAxis=5.6490812740267729e-009
+HVelBodyAxis=6.4010910101718323e-007
+XVelBodyAxis=3.0251805546951932e-006
+YVelBodyAxis=8.7904880140030179e-084
+ZVelBodyAxis=16.88761451793836
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Slew.1365]
+Active=False
+
+[Freeze.1365]
+Location=False
+Altitude=False
+Attitude=False
+
+[Sim.1362]
+Sim=VEH_destroyer01
+
+[SimVars.1362]
+Latitude=N36° 26' 23.09"
+Longitude=W74° 30' 38.33"
+Altitude=+000008.99
+Pitch=0
+Bank=-2.6388096811266233e-006
+Heading=79.073038968757515
+PVelBodyAxis=0
+BVelBodyAxis=2.7248868184214404e-009
+HVelBodyAxis=6.8278139506337078e-007
+XVelBodyAxis=3.1337958661530364e-006
+YVelBodyAxis=8.7904878012596928e-084
+ZVelBodyAxis=16.88761451793836
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Slew.1362]
+Active=False
+
+[Freeze.1362]
+Location=False
+Altitude=False
+Attitude=False
+
+[Sim.1367]
+Sim=VEH_cruiser01
+
+[SimVars.1367]
+Latitude=N36° 26' 40.67"
+Longitude=W74° 29' 40.67"
+Altitude=+000008.94
+Pitch=0
+Bank=-2.7663916205960499e-006
+Heading=79.053708302457366
+PVelBodyAxis=0
+BVelBodyAxis=4.2551796142814826e-009
+HVelBodyAxis=5.9638300792367312e-007
+XVelBodyAxis=3.3227104382032696e-006
+YVelBodyAxis=0.16868273943218282
+ZVelBodyAxis=16.88761451793836
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Slew.1367]
+Active=False
+
+[Freeze.1367]
+Location=False
+Altitude=False
+Attitude=False
+
+[Sim.1354]
+Sim=veh_carrier01_high_detail_sm
+
+[SimVars.1354]
+Latitude=N36° 25' 11.34"
+Longitude=W74° 28' 47.82"
+Altitude=-000001.01
+Pitch=0
+Bank=-5.4793496311432768e-006
+Heading=79.056514002503079
+PVelBodyAxis=0
+BVelBodyAxis=2.8630787915902735e-009
+HVelBodyAxis=1.2320738940421814e-006
+XVelBodyAxis=6.2904590394412969e-006
+YVelBodyAxis=-6.1215114904074471e-041
+ZVelBodyAxis=16.8697108710506
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Slew.1354]
+Active=False
+
+[Freeze.1354]
+Location=False
+Altitude=False
+Attitude=False
+
+[Sim.1357]
+Sim=VEH_water_tanker03_sm
+
+[SimVars.1357]
+Latitude=N36° 24' 10.42"
+Longitude=W74° 32' 15.94"
+Altitude=+000008.99
+Pitch=0
+Bank=-3.6051932141982434e-006
+Heading=79.068159705076027
+PVelBodyAxis=0
+BVelBodyAxis=2.935292432417238e-009
+HVelBodyAxis=8.1993293722733858e-007
+XVelBodyAxis=4.1384377373356682e-006
+YVelBodyAxis=-8.721388783857926e-130
+ZVelBodyAxis=16.88761451793836
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Slew.1357]
+Active=False
+
+[Freeze.1357]
+Location=False
+Altitude=False
+Attitude=False
+
+[Sim.1353]
+Sim=VEH_cruiser01
+
+[SimVars.1353]
+Latitude=N36° 23' 43.90"
+Longitude=W74° 27' 54.08"
+Altitude=+000008.99
+Pitch=0
+Bank=-1.2721798739574863e-006
+Heading=79.079196997307633
+PVelBodyAxis=0
+BVelBodyAxis=-4.0201283913108343e-009
+HVelBodyAxis=3.0199217272655581e-007
+XVelBodyAxis=1.4060781989311548e-006
+YVelBodyAxis=1.7823132090461457e-113
+ZVelBodyAxis=16.88761451793836
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+[Slew.1353]
+Active=False
+
+[Freeze.1353]
+Location=False
+Altitude=False
+Attitude=False
+
+[ObjectFile]
+File=TGS_Mission5
